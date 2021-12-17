@@ -48,8 +48,8 @@ class App extends Component {
     ],
 
     postData: {
-      lp_campaign_id: '5fe2370665025',
-      lp_campaign_key: 'r7zWCbyvMYB4KF2wJq9t',
+     lp_campaign_id: "603435ae5cbe5",
+      lp_campaign_key: "RH4GxhDQ2LWCb7pXBZzK",
       lp_s3: '12',
       lp_s4: '13',
       TCPA_Consent: 'Yes',
@@ -65,7 +65,7 @@ class App extends Component {
       dob: '',
       month: '',
       date: '',
-      landing_page: 'home.quotehound.com',
+      landing_page: 'home.quantumassurance.com',
       credit_score: '',
       marital_status: 'Married',
       own_or_rent: '',
