@@ -16,7 +16,7 @@ class NavBar extends Component {
 
       <ul className="md:flex md:flex-row" id="mobileMenu">
   <li className="pr-5"> 
-    <a className="text-center inline-block px-2 py-2 text-sm text-white font-bold leading-loose bg-blue-400 hover:bg-blue-600 rounded transition duration-200" href="tel:8553382733" data-config-id="04_button">(855) 338-2733</a> 
+    <a className="text-center inline-block px-2 py-2 text-sm text-white font-bold leading-loose bg-blue-400 hover:bg-blue-600 rounded transition duration-200" href="tel:8883063423" data-config-id="04_button">(888) 306-3423</a> 
   </li>  
 
   <li className="inline-block px-2 py-2 text-sm text-gray-500 font-bold leading-loose"> 9AM - 6PM ET Monday - Friday </li>
