@@ -48,8 +48,8 @@ class App extends Component {
     ],
 
     postData: {
-     lp_campaign_id: "603435ae5cbe5",
-      lp_campaign_key: "RH4GxhDQ2LWCb7pXBZzK",
+     lp_campaign_id: "61dcde54a214c",
+      lp_campaign_key: "3wJn8YzV9Qj7fpH46LkF",
       lp_s3: '12',
       lp_s4: '13',
       TCPA_Consent: 'Yes',
@@ -78,7 +78,7 @@ class App extends Component {
       currently_insured: '',
       current_insurance_company: 'Company Not Listed',
       any_claims_over_last_3_years: '',
-      useragent: navigator.userAgent,
+      user_agent: navigator.userAgent,
       lp_caller_id: '',
       fbclid: '',
       gclid: '',
@@ -106,6 +106,8 @@ class App extends Component {
                     postData: {
                       ...this.state.postData,
                       zip_code: v,
+                      city: localStorage.getItem('city'),
+                      state: localStorage.getItem('state')
                     },
                   });
 
